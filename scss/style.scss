@@ -1,0 +1,70 @@
+@import "../node_modules/normalize-scss/sass/normalize/import-now"; 
+@import "_var.scss";
+@import "header.scss";
+@import "_mixins.scss";
+@import "hero.scss";
+@import "news.scss";
+@import "about.scss";
+@import "projects.scss";
+
+@font-face {
+  font-family: "GothamBook";
+  src: url("./GothamBook.eot");
+  src: local("GothamBook"),
+    url("../fonts/Gotham\ Medium\ Regular/gotham-medium-webfont.woff")
+      format("woff"),
+    url("./GothamBook.ttf") format("truetype");
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_10146">Text with this font applied</p> */
+.fontsforweb_fontid_10146 {
+  font-family: "GothamBook" !important;
+}
+@font-face {
+  font-family: "GothamBook";
+  src: url("./GothamBook.eot");
+  src: local("GothamBook"),
+    url("../fonts/GothamBook/GothamBook.woff") format("woff"),
+    url("./GothamBook.ttf") format("truetype");
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_10146">Text with this font applied</p> */
+.fontsforweb_fontid_10146 {
+  font-family: "GothamBook" !important;
+}
+@font-face {
+	font-family: 'gothambold1';
+	src: url('./gothambold1.eot');
+	src: local('gothambold1'), url('../fonts/gothambold/gothambold1.woff') format('woff'), url('./gothambold1.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_5903">Text with this font applied</p> */
+.fontsforweb_fontid_5903 {
+	font-family: 'gothambold1' !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_10146">Text with this font applied</p> */
+.fontsforweb_fontid_10146 {
+	font-family: 'GothamBook' !important;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+body._lock {
+    overflow: hidden;
+  }
+  .wrapper {
+    min-height: 100%;
+  }
+  .slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+
+
+
+
